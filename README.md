@@ -21,3 +21,10 @@ WHERE
 GROUP BY TagName, Users.Id,DisplayName , Users.Location
 ORDER BY TagName,ranking
 ```
+
+
+#### download playlist videos from youtube as mp3 using youtube-dl
+using youtube-dl with  c- continue on error, i - ignore error, t - name files as titles 
+```bash   
+youtube-dl -cit "https://www.youtube.com/playlist?list=PLgsULqFLnJPtTHzE-KjBj1Jf6MnVNRGJW" --extract-audio --audio-format mp3
+```
