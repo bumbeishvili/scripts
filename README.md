@@ -1,3 +1,11 @@
+## Running parralels with network
+
+```
+sudo -b /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_client_app
+
+```
+
+
 # scripts
 
 [StackExchangeDataExplorer](https://data.stackexchange.com/stackoverflow/query/new)
